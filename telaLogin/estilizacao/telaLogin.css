@@ -1,0 +1,138 @@
+/* ----------------------------------- geral ----------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #EDF2F4;
+}
+
+/* ----------------------------------- Container principal ----------------------------------- */
+
+.container-total{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-geral{
+    width: 70%;
+    height: 80%;
+    background-color: #8D99AE;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 300px;
+    min-width: 400px;
+    box-shadow: 0 2px 8px;
+}
+
+.nome-cargo h1{
+    margin-left: 20px;
+}
+
+.nome-cargo{
+    border-bottom: 2px solid rgb(74, 73, 73);
+    height: 10%;
+    min-height: 20px;
+}
+
+/* ----------------------------------- container interno ----------------------------------- */
+
+
+.container-interno{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+/* 
+.cargo{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid black;
+    padding: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/* ----------------------------------- container cargos ----------------------------------- */
+
+/* .gerente, .empregado{
+    width: 100%;
+    height: 23%;
+}
+
+.gerente{
+    background-color: #2B2D42;
+    border-top-left-radius: 10px;
+    position: relative;
+    right: -1px;
+}
+
+.empregado{
+    background-color: rgb(179, 208, 197);
+    border-bottom-left-radius: 10px;
+} */
+
+/* ----------------------------------- dados ----------------------------------- */
+
+.dados{
+    width: 100%;
+    height: 90%;
+    background-color: #2B2D42; 
+    display: flex;
+    justify-content: center;
+}
+
+.dados label, p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.dados form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.dados select{
+    margin-bottom: 20px;
+}
+
+.dados input:not(:last-child){
+    height: 30px;
+    padding-left: 10px;
+}
+
+.dados .input-1{
+    width: 360px;
+}
+
+.dados input:not(:last-child){
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-esquerdo{
+    height: 80%;
+}
+
+.form-direito{
+    height: 80%;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}

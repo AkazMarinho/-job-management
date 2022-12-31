@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilizacao/telaLogin.css">
+</head>
+<body>
+    <div class="container-total">
+        <div class="container-geral">
+            
+            <div class="nome-cargo">
+                <h1>Gerente</h1>
+            </div>
+
+            <!-- <div class="container-interno">
+                <div class="cargo">
+                    <div class="gerente"></div>
+                    <div class="empregado"></div>
+                </div> -->
+                <div class="dados">
+                    <form action="" method="post">
+                        <div class="form-esquerdo">
+
+                            <p>Name</p>
+                            <input class="input" type="text" placeholder="insert you name">
+                            
+                            <p>Email</p>
+                            <input class="input" type="text" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="email@domain.com">
+                            
+                            <p>CPF</p>
+                            <input class="input" type="Number" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="999.999.999.99">
+        
+                            <p>birth date</p>
+                            <input class="input" type="date">
+        
+                            <br>
+                            <label for="gender">Gender</label>
+                            
+                            <select name="" id="gender">
+                                <option value="feminimo">Feminino</option>
+                                <option value="feminimo">Masculino</option>
+                            </select>
+                        </div>
+                        <div class="form-direito">
+                            <p>tell</p>
+                            <input class="input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format: (99) 99999-9999">
+    
+                            <p>CNPJ</p>
+                            <input class="input" type="number" placeholder="CNPJ">
+
+                        </div>
+                        <input class="input" type="submit" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
