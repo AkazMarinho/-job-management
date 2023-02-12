@@ -1,0 +1,91 @@
+main{
+   width:100%;
+   height: 65vh;
+   text-align: center;
+}
+
+main > h1{
+    margin: 20px 0 30px;
+}
+
+.hidde{
+    display: none;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    
+}
+
+.allJobs{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selectAction{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.selectAction h1{
+    width: 150px;
+    font-size: 20px;
+}
+
+.allJobsTable, .allFinsheddTable{
+    width: 100%;
+    
+}
+
+.tableContent{
+    overflow: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.aJobs, .aFin{
+    padding: 5px 20px;
+    background-color: #808080;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #262626;
+
+}
+
+.captionpStyle{
+    background-color:  #4b4b4b;
+    color: rgb(0, 0, 0);
+    transition: .2s;
+}
+
+.allJobs table{
+    background-color: #4b4b4b;
+    padding: 20px;
+}
+
+.confiTable{
+    text-align: center;
+}
+
+.confiTable th, .confiTable td {
+    background-color: rgb(163, 114, 209);
+    height: 30px;
+}
+
+#Jname, #JFinishDay, #Jstatus, #JcreationDay{
+    width: 15%;
+    min-width: 100px;
+}
+
+#Jdescription{
+    width: 38.5px;
+    min-width: 250px;
+    
+}
+

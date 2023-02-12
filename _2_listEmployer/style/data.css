@@ -1,0 +1,140 @@
+main{
+    width: 100%;
+    height: 63vh;
+}
+
+.create-employee{
+    width: 100%;
+    text-align: center;
+}
+
+
+.title-employeer{
+    margin: 20px 0;
+}
+
+#txtSearch{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border: 0;
+    outline: none;
+    padding: 0 5px;
+    margin-bottom: 15px;
+}
+
+#body-data{
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+table{
+    width: 100%;
+    padding: 10px;
+}
+
+.display{
+    display: inline;
+}
+
+.none{
+    display: none;
+}
+
+table th{
+    background-color: rgb(166, 166, 166);
+}
+
+table td{
+    background-color: rgb(231, 231, 231);
+    /* border: 1px solid black; */
+}
+
+.tdNewColor{
+    background-color: rgb(215, 215, 215);
+
+}
+
+.row_1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 40%;
+    height: 40px;
+    border-right: 1px solid rgb(163, 163, 163);
+    min-width: 250px;
+}
+
+
+
+.row_2{
+    border-right: 1px solid rgb(163, 163, 163);
+    min-width: 250px;
+    width: 40%;
+}
+
+.row_3{
+    width: 10%;
+    min-width: 70px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.row_4{
+    width: 10%;
+    min-width: 70px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.uil-file-edit-alt{
+    font-size: 24px;
+}
+
+.uil-file-edit-alt:hover{
+    transition: .3s;
+    color: #ef233c;
+}
+
+.container-circle{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redCircle{
+    width: 15px;
+    height: 15px;
+    background-color: #f00;
+    border-radius: 50%;
+    border: 1px solid rgb(119, 0, 0);
+
+    
+}
+.greenCircle{
+    width: 15px;
+    height: 15px;
+    background-color: #0f0;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 119, 0);
+    
+}
+
+footer{
+    position: relative;
+}
+
+@media (max-width: 340px){
+
+    #txtSearch{
+        width: 95%;
+    }
+
+}
+
+/* @media (max-height: 100vh){
+    main{
+        height: max-content;
+    }
+} */

@@ -1,0 +1,150 @@
+.defalt{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #672e79ee;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+}
+
+.back{
+    width: 300px;
+    height: 200px;
+}
+
+.back h1{
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+.btn button, .confirmFinish button, #send, .back button, #okUpdate, .wasFinished button, .defalt button{
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin: 3px;
+    background-color: #b7b7b7;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+main{
+    width: 100%;
+}
+
+main h1{
+    margin-top: 30px;
+    text-align: center;
+}
+.formContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upForm, .downForm{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.downForm{
+    margin: 50px 0;
+    padding: 30px 30px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.downForm div{
+    width: 200px;
+    height: 50px;
+}
+
+.upForm div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+label{
+    font-size: 25px;
+}
+input, textarea{
+    width: 200px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 7px;
+
+}
+
+textarea::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+textarea{ 
+   -moz-appearance: textfield;
+   appearance: textfield;
+   resize: none;
+
+}
+
+#name, #finishDay{
+    height: 30px;
+}
+
+.finished, .deleted{
+    box-shadow: 0px 5px 7px;
+    border-radius: 3px;
+
+
+}
+
+.header, .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: rgb(115, 82, 147);
+    box-shadow: 0px 2px 7px;
+
+}
+.header{
+    height: 30px;
+}
+
+.hidde{
+    display: none;
+}
+
+#send{
+    background-color: rgb(32, 100, 167);
+    box-shadow: 0px 5px 7px;
+    margin: 20px auto;
+}

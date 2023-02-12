@@ -1,0 +1,218 @@
+main{
+    width: 100%;
+    height: max-content;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+h2, span{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.headerMain h2{
+    margin-left: 20px;
+}
+
+.headerMain{
+    display: flex;
+    justify-content: start;
+    align-items:flex-start ;
+    flex-direction: column;
+    width: 95%;
+    background-color: #b7b7b7;
+    margin: 10px auto ;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.contentHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contentHeader a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.attJob, .buttonDelete{
+    font-size: 12px;
+    width: 200px;
+    height: 50px;
+    background-color: #b89f9f;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.buttonDelete{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.attJob:hover, .buttonDelete:hover{
+    cursor: pointer;
+    background-color: #a78a8a;
+}
+
+.nameEmployer{
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 7px 10px;
+    border-bottom: 2px solid rgb(127, 127, 127);
+    font-size: 18px;
+}
+
+.nameEmployer:hover{
+    border-bottom: 2px solid rgb(35, 35, 35);
+    
+}
+
+.sucessUpdate, .confirmDelete, .deleteCompleted{
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    background-color: #672e79ee;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+}
+
+.sucessUpdate button, .confirmDelete button, .deleteCompleted button{
+    font-size: 17px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin: 3px;
+    background-color: #b7b7b7;
+    cursor: pointer;
+}
+
+.hideSucess{
+    display: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #717884;
+    margin: 40px 50px 10px;
+    border-radius: 10px;
+    background-color: #a5afc0;
+}
+
+#name, #email, #phone, #bornDay, #cpf, #password, #hireDate{
+    width: 300px;
+    height:32px;
+    padding: 3px 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+label{
+    margin: 5px 0;
+    font-weight: bold;
+
+}
+
+form button{
+    margin-top: 100px;
+    width: 200px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.passwrdVerify{
+    margin-top: -10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(155, 17, 17);
+    
+}
+
+.gender, .isActive{
+ margin-top: 7px ;
+ width: 300px;
+ height:32px;
+ background-color: rgb(186, 58, 255);
+ border-radius: 4px;
+}
+
+.isActive{
+    margin-top: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+}
+
+.title h1{
+    font-size: 20px;
+}
+
+.title i{
+    font-size: 30px;
+    margin-top: -3px;
+    transition: .4s;
+}
+
+.hidden{
+    display: none;
+}
+
+.active{
+    transform: rotate(180deg);
+    transition: .4s;
+}
+.chooseGender, .chooseIsActive{
+    position: relative;
+    width: 300px;
+    height: max-content;
+    background-color: rgb(142, 120, 162);
+    z-index: 10;
+    border-radius: 4px;
+}
+
+.chooseGender span, .chooseIsActive span{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.male, .female, .Active, .Disabled{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding: 7px 0;
+}
+
+.male:hover, .female:hover, .Active:hover, .Disabled:hover{
+    background-color: rgb(65, 65, 65);
+}
