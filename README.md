@@ -45,16 +45,30 @@
   <img src="https://user-images.githubusercontent.com/58227029/218319422-05e16994-9d29-48c1-9e4a-003d5ce973de.jpg" width="600px">
  
   <h2>Create job</h2>
+  
+  <p>On this page, jobs related to an employee can be created with a simple form, adding a name, description and completion date. That job will be visible in the job list and can be edited or deleted later.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218324961-54b9506d-e1bc-4f3b-babf-67ada2697163.jpg" width="600px">
  
   <h2>Employee job list</h2>
+  <p>On this page, all jobs related to a specific employee are shown, with information about the name, description, start and end day, or if the job has already been completed.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218325180-ed8223f6-df76-4158-a896-27688112fd0c.jpg" width="600px">
  
   <h2>All jobs</h2>
+  <p>Here all jobs of an employer will be shown. The page has a filter to see all jobs or just completed ones.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218325433-2a892f6a-c78f-4084-af6b-92f3532a884e.jpg" width="600px">
  
   <h2>Employer profile</h2>
+  <p>On this page will be all the information of the employer.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218325526-af27e35b-49b1-49b8-b44d-50b4adedbbdb.jpg" width="600px">
  
   <h2>Responsive menu</h2>
+  <p>The top menu already has changes in responsiveness, and can take on a hamburger format when on smaller devices.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218325635-497da601-509c-441d-a123-cf1c1499e5a8.jpg" width="600px">
  
   <h2>Validation and dark/light modes via local storage</h2>
+  <p>The API does not have its own authentication system, and to give more reality to the system as a whole, an authentication system was implemented through local storage. Data is received and persisted across pages. If the data is entered incorrectly in the login, the other pages cannot be accessed correctly, where there will be no transaction with the back-end, and no data will be received or sent.</p>
+  <p>The project also has a light/dark mode system, and user preferences are persistent even after closing the browser.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218326037-bd9e80f8-b52d-4efa-807c-43819dad218e.jpg" width="600px">
  
  
 </span>
