@@ -14,6 +14,11 @@
   
   <p>The login page has basic functionalities, with validation through the CNPJ and the employer's password, and already has the functionality of choosing the visualization mode.</p>
   
+  <img src="https://user-images.githubusercontent.com/58227029/218314998-f2f0c41b-a977-465a-8acf-33892ae8998f.jpg" width="600px">
+  
+  Depending on the response to the request, a verification success or verification error message will be displayed.
+  
+  <img src="https://user-images.githubusercontent.com/58227029/218315199-df7d757b-fec9-4183-bbaa-86883bc5cd7b.jpg" width="600px">
 
 </span>
 
