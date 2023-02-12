@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Job of Employee</title>
+    <link rel="stylesheet" href="../../_1_globalResources/style/globalStyle.css">
+    <link rel="stylesheet" href="style/listJobEmployeeStyle.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="../../_1_globalResources/script/globalScript.js" defer></script>
+    <script src="script/listJobEmployeeScript.js" defer></script>
+</head>
+<body>
+    <!-- header template star -->
+    <div class="lockScroll hide_confirm"></div>
+    <header class="light">
+        <span><a href="../../_2_home/homePage.html">Home</a></span>
+        <div class="menuBar">
+            <i class="uil uil-bars"></i>
+        </div>
+        <ul class="direct hide">
+            <li><a href="../../_2_listEmployer/listEmployee.html">List of employees</a></li>
+            <li><a href="../../_2_addEmployee/addEmployeesPage.html">Employee registration</a></li>
+            <li><a href="../../_2_jobContent/IndexJobContent.html">Your jobs</a></li>
+        </ul>
+        <div class="config">
+            <div class="theme i_1"><i class="uil uil-moonset"></i></div>
+            <div class="theme i_2"><i class="uil uil-signout"></i></div>
+            <a href="../../_2_profile/profile.html"><div class="theme"><i class="uil uil-user"></i></i></div></a>
+
+        </div>
+        
+    </header>
+    <div class="confirmGetOut hide_confirm">
+        <h1>do you really want to go out?</h1>
+        <a href="../../loginPage.html"><button type="button" class="confirm">Confirm</button></a>
+        <button type="button" class="cancel">Cancel</button>
+    </div>
+    <!-- header template end -->
+
+    <!-- code stat -->
+    <main>
+        <h1>Employee job list</h1>
+        <div class="headerListJob">
+            <h2>Name Employee: <span class="nameEmployee">kkk</span></h2>
+            <div class="subtitle">
+                <h3>Captions: </h3>
+                <div class="icons">
+                    <span><i class="uil uil-circle color1"></i>In activity</span>
+                    <span><i class="uil uil-circle color2"></i>Is finished</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tableContent">
+
+            <table id="table">
+                <tr class="titleTable confiTable">
+                    <th id="name">Name</th>
+                    <th id="description">Description</th>
+                    <th id="creationDay">Creation day</th>
+                    <th id="FinishDay">Finish day</th>
+                    <th id="status">Status</th>
+                    <th id="edit">edit</th>
+                </tr>
+
+                <!-- <tr class="confiTable">
+                    <td id="name">name</td>
+                    <td id="description">Des</td>
+                    <td id="creationDay">23/83/03</td>
+                    <td id="FinishDay">93/09/27</td>
+                    <td id="status">on</td>
+                    <td id="edit"><a href="../_4_updateJob/updateJob.html"><i class="uil uil-file-edit-alt"></i></a> </i></td>
+                </tr> -->
+                
+            </table>
+        </div>
+    </main>
+    <!-- code end -->
+
+    <!-- footer template start -->
+    <footer>
+        <nav class="contacts">
+            <ul>
+                <li><a href=""><i class="uil uil-github"></i></a></li>
+                <li><a href=""><i class="uil uil-linkedin"></i></a></li>
+                <li><a href=""><i class="uil uil-envelope-upload"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- footer template end -->
+
+</body>
+</html>

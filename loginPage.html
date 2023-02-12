@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="_1_globalResources/style/globalStyle.css">
+    <link rel="stylesheet" href="_1_loginPage/style/pageLoginStyle.css">
+
+    <script src="_1_loginPage/script/pageLoginScript.js" defer></script>
+    <!-- <script src="_1_globalResources/script/globalScript.js" defer></script> -->
+</head>
+<body>
+    <main>
+       
+        <header class="light">
+            <div class="menuBar">
+            </div>
+            <div class="config">
+                <div class="theme i_1"><i class="uil uil-moonset"></i></div>
+            </div>
+            
+        </header>
+        
+        <h1>Login</h1>
+        <form action="" class="data" id="form">
+            <label for="cnpj">CNPJ</label>
+            <input type="text" name="cnpj" id="cnpj" placeholder="enter your CNPJ" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="enter a password" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="hide alin">
+            <h1>Sucess</h1>
+            <a href="_2_home/homePage.html" ><button type="submit" id="button">Ok</button></a>
+            <div id="val"></div>
+        </div>
+
+        <div class="hide inval">
+            <h1>Usuário ou senha Inválida</h1>
+            <a href="loginPage.html" ><button type="button" id="button-inval">Ok</button></a>
+            <div id="val"></div>
+        </div>
+    </main>
+    
+</body>
+</html>

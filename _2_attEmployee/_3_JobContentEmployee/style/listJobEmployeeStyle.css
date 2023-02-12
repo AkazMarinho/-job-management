@@ -1,0 +1,163 @@
+main h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+main{
+    overflow: auto;
+    padding: 0 10px;
+    height: 66%;
+}
+
+.headerListJob{
+    width: 95%;
+    min-width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto ;
+    border-radius: 10px;
+    min-width: 850px;
+    background-color: #b7b7b7;
+}
+
+.headerListJob h2{
+    margin-left: 20px;
+}
+.nameEmployee{
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 7px 10px;
+    border-bottom: 2px solid rgb(127, 127, 127);
+    
+    font-size: 18px;
+}
+
+.nameEmployee:hover{
+    border: 2px solid rgb(35, 35, 35);
+}
+
+.subtitle{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+}
+
+.icons i, #edit i{
+    font-size: 12px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.icons span{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.color1{
+    color: #0f0;
+    background-color: #0f0;
+    border: 1px solid rgb(0, 177, 0);
+}
+
+.color2{
+    color: rgb(0, 30, 255);
+    background-color: rgb(0, 30, 255);
+    border: 1px solid rgb(1, 19, 156);
+
+}
+
+.tableContent{
+    width: 95%;
+    margin: 10px auto ;
+    border-radius: 10px;
+    background-color: #b7b7b7;
+    padding: 10px;
+    min-width: 850px;
+}
+
+table{
+    width: 100%;
+}
+
+.confiTable{
+    font-size: 14px;
+}
+
+.titleTable{
+    width: 100%;
+}
+
+.confiTable, th, td{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.confiTable{
+    margin-top: 5px;
+}
+
+.confiTable td, .confiTable th{
+    background-color: rgb(151, 151, 151);
+    padding: 4px;
+    height: 40px;
+}
+
+#name, #description, #creationDay, #FinishDay, #status, #edit{
+    text-align: center;
+}
+
+#name, #creationDay, #FinishDay{
+    width: 20%;
+    min-width: 90px;
+}
+
+#status, #edit{
+    width: 5.8%;
+    min-width: 30px;
+}
+
+#edit i{
+    font-size: 20px;
+    color: rgb(159, 66, 66);
+}
+#edit i:hover{
+    font-size: 23px;
+    color: rgb(45, 88, 115);
+}
+
+#description{
+    width: 27.6%;
+    min-width: 140px;
+}
+
+.confiTable td:last-child{
+    background-color: rgb(151, 151, 151);
+    width: 10%;
+    height: 40px;
+}
+
+.titleTable #name{
+    border-top-left-radius: 4px;
+}
+
+.titleTable #edit{
+    border-top-right-radius: 4px;
+}
+
+tr:last-child #name{
+    border-bottom-left-radius: 4px;
+}
+
+tr:last-child #edit{
+    border-bottom-right-radius: 4px;
+}

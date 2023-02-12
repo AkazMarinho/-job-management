@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #EDF2F4;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.light{
+    background-color: #edf2f4;
+}
+
+.dark{
+    background-color: #8d99ae;
+}
+
+.menuBar{
+    display: none;
+}
+
+main h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.data{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #EF233C;
+
+}
+
+.data label{
+    font-size: 20px;
+}
+
+.data input{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+}
+
+.data button{
+    width: 80px;
+    height: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+.alin button, .inval button{
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(23, 61, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+.alin, .inval{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(75, 39, 97);
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.alin h1, .inval h1{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.alin a, .inval a{
+    position: relative;
+    left: 40%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+

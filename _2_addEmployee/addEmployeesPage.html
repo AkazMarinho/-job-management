@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <link rel="stylesheet" href="../_1_globalResources/style/globalStyle.css">
+    <link rel="stylesheet" href="style/formStyle.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="../_1_globalResources/script/globalScript.js" defer></script>
+    <script src="script/addEmployeeScript.js" defer></script>
+</head>
+<body>
+    <!-- header template star -->
+    <div class="lockScroll hide_confirm"></div>
+    <div class="sucessCreation hideSucess">
+        <h1>Employee created</h1>
+        <a href="../_2_listEmployer/listEmployee.html"><button type="button" class="confirm">Confirm</button></a>
+    </div>
+    <header class="light">
+        <span><a href="../_2_home/homePage.html">Home</a></span>
+        <div class="menuBar">
+            <i class="uil uil-bars"></i>
+        </div>
+        <ul class="direct hide">
+            <li><a href="../_2_listEmployer/listEmployee.html">List of employees</a></li>
+            <li><a href="../_2_addEmployee/addEmployeesPage.html">Employee registration</a></li>
+            <li><a href="../_2_jobContent/IndexJobContent.html">Job list</a></li>
+        </ul>
+        <div class="config">
+            <div class="theme i_1"><i class="uil uil-moonset"></i></div>
+            <div class="theme i_2"><i class="uil uil-signout"></i></div>
+            <a href="../_2_profile/profile.html"><div class="theme"><i class="uil uil-user"></i></i></div></a>
+
+
+            
+        </div>
+    </header>
+    <div class="confirmGetOut hide_confirm">
+        <h1>do you really want to go out?</h1>
+        <a href="../loginPage.html"><button type="button" class="confirm">Confirm</button></a>
+        <button type="button" class="cancel">Cancel</button>
+    </div>
+    <!-- header template end -->
+
+    <!-- code stat -->
+
+    <main>
+        <form id="form" action="">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="name@domain.com" required>
+
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" placeholder="(xx)xxxxx-xxxx" minlength="14" maxlength="14" required>
+
+            <label for="bornDay">Birth date</label>
+            <input type="date" name="bornDay" id="bornDay" placeholder="dd/mm/yyyy" minlength="10" maxlength="10" required>
+
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" placeholder="xxx.xxx.xxx-xx" minlength="14" maxlength="14" required>
+
+            <label for="password">Password</label>
+            <input type="text" placeholder="password" id="password" required>
+            <div class="gender">
+                <div class="title " id="containergender">
+
+                    <h1 class="titleGender">choose gender</h1>
+                     <i class="uil uil-angle-down"></i>
+                </div>
+                
+                <div class="chooseGender hidden">
+                    
+                    <div class="male">
+                        <span>Male</span>
+                    </div>
+                    <div class="female">
+                        <span>Female</span>
+                    </div>
+                </div>
+            </div>
+            
+
+            <button type="submit">enviar</button>
+        </form>
+    </main>
+
+
+    <!-- code end -->
+
+    <!-- footer template start -->
+    <footer>
+        <nav class="contacts">
+            <ul>
+                <li><a href=""><i class="uil uil-github"></i></a></li>
+                <li><a href=""><i class="uil uil-linkedin"></i></a></li>
+                <li><a href=""><i class="uil uil-envelope-upload"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- footer template end -->
+
+</body>
+</html>
