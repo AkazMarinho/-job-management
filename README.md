@@ -31,9 +31,30 @@
   <img src="https://user-images.githubusercontent.com/58227029/218317594-fcbd12d4-aeca-4884-9ac4-4497e3b13b82.png" width="600px">
  
   <h2>List Employee</h2>
+  <p>Based on the employees added, this page will show a list with all the names, emails and whether they are active or not, and editing feature.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218318545-2ead1c5a-c870-4563-bb9a-b3ee5f06cf64.jpg" width="600px">
  
   <h2>Search system</h2>
-  <h2>Home Page</h2>
+  <p>Within the page that lists employees, there is a functional search system.</p>
+  <p>In this example, a search is made for the letter H, and only the names that contain the letter are shown.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218318708-f3884366-cd7c-4ec2-8e2d-90991412b936.jpg" width="600px">
+ 
+  <h2>Employee update</h2>
+ <p>This page will return the data of the employee who will have the data changed.</p>
+  <p>Here you can also add jobs, show current jobs or delete the employee.</p>
+  <img src="https://user-images.githubusercontent.com/58227029/218319422-05e16994-9d29-48c1-9e4a-003d5ce973de.jpg" width="600px">
+ 
+  <h2>Create job</h2>
+ 
+  <h2>Employee job list</h2>
+ 
+  <h2>All jobs</h2>
+ 
+  <h2>Employer profile</h2>
+ 
+  <h2>Responsive menu</h2>
+ 
+  <h2>Validation and dark/light modes via local storage</h2>
  
  
 </span>
